@@ -7,19 +7,18 @@
   body {
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 14px;
-    color:#000;
+    color: beige;
     margin: 0;
     padding: 0;
   }
 
-  a:link {
-    text-decoration: none;
-  }
+.hero-text{
+font-size: 24px;
+}
 
-  .logo{
-      height: 30px;
-      
-  }
+.hero-title{
+font-size: 16px;
+}
 
 
   .img-hero {
