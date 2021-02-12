@@ -1,0 +1,2 @@
+# shortiki
+Shortiki.app
