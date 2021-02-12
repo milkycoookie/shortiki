@@ -1,0 +1,361 @@
+   
+   @media (min-width: 300px) and (max-width: 800px) {   
+   
+   html, body {
+    position: relative;
+    height: 100%;
+  }
+  body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+
+  .topbar{
+      width: 100%;
+      height: 50px;
+      position: fixed;
+      background: #000;
+      z-index: 2;
+      display:flex;
+    align-items: center;
+  }
+
+  .logo{
+      height: 30px;
+      
+  }
+
+.back {
+  margin-left: 10px;
+}
+
+
+
+  .swiper-container {
+    width: 100%; 
+    height: 100%;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+
+  .swiper-slide > video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.swiper-slide .black__ {bottom:0; left: 0; position: absolute;}
+.swiper-slide .black__ > img {height: 100%; width: 100%; bottom: 0;}
+
+
+
+    .playpause {
+    background-image:url(/Users/mark/Dropbox/code_/tiktokisdead/play_.svg);
+    background-repeat:no-repeat;
+    width:20%;
+    height:20%;
+    position:absolute;
+    left:0%;
+    right:0%;
+    top:0%;
+    bottom:0%;
+    margin:auto;
+    background-size:contain;
+    background-position: center;
+}
+
+
+  .flex-grid-thirds {
+    max-width: 800px;
+    display: flex;
+    justify-content: space-between;
+    background-position: center;
+    
+    margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  
+
+
+  }
+
+  .flex-grid-thirds .col {
+    width: 33%;
+    padding-bottom: 0.3%;
+    position: relative;
+  }
+
+ 
+  .col {
+    height: auto;
+  }
+
+
+.col > img{
+    width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.flex-grid-thirds .col .link_text_ {
+  
+  
+ display: inline-block; 
+  color: #fff;
+
+  position: absolute;
+	bottom: 3%;
+  left: 6%;
+  font-size: 15px;
+
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.link_text_ > img {
+  
+}
+
+
+/*  */
+
+.profiletopbar{
+    width: 100%;
+      height: 60px;
+      background: #000;
+      color: #FFFFFF;
+      display: flex;
+  align-items: center;
+      
+}
+
+.tik_icon_{
+    height: 25px;
+    display:inline-block;
+    margin: auto;
+}
+
+/*  */
+
+
+
+/*  */
+
+.avatar > img{
+
+  display:block;
+  margin:auto;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  width: 100px;
+  height: 100px;
+}
+
+.profilename_ {
+  font-size: 14px;
+  color: #000;
+  text-align: center;
+  margin-bottom: 20px;
+  
+}
+
+
+.numbers_columns {
+  display: flex;
+  flex-flow: row ;
+  justify-content: center;
+
+}
+
+.number_ {
+  
+  margin-left: 5%;
+  margin-right: 5%; 
+  text-align: center;
+  font-size: 13px;
+  color: dimgray;
+  
+  
+}
+
+.big_number_ {
+  font-size: 17px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 5px;
+}
+
+.about_ {
+  text-align: center;
+  color: dimgray;
+  margin: 20px;
+  
+}
+/*  */
+
+
+
+
+.right_block_ {
+    
+    position: absolute;
+    width: auto;
+    height: auto;
+    right: 3%;
+    bottom: 3%;
+    
+}
+
+.right_block_ div{
+    /* margin-top: 35px; */
+    line-height: 5px;
+    color: #fff;
+    
+}
+
+.ava_ { margin-bottom: 35px; }
+.like_ { margin-bottom: 30px; }
+.comment_ { margin-bottom: 30px; }
+.share_ { margin-bottom: 30px; }
+
+.ava_ > img{
+    width: 50px;
+    height: 50px;
+
+}
+
+
+.musicball_ > img{
+    width: 50px;
+    height: 50px;
+
+}
+
+
+
+.bottom_block_ {
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 3%;
+    bottom: 4%;
+
+    font-size: 15px;
+    color: #fff;
+    text-align: left;
+}
+
+.name_ {
+    margin-bottom: 10px;
+}
+
+.description_ {
+    margin-bottom: 10px;
+    width: 70%;
+    display: inline-block;
+}
+
+.song_ {
+ 
+  line-height: 18px;
+  text-align: left;
+  display: flex;
+
+}
+
+.song_ > img {
+    margin-right: 15px;
+    
+}
+
+
+
+.marquee {
+  display: inline-block;
+  width: 200px;
+  overflow: hidden;
+  position: relative;
+   left: 0%;
+
+}
+
+
+.scroll-down {
+	position: absolute;
+  bottom: 2px;
+
+	display: block;
+	text-align: center;
+	font-size: 20px;
+	z-index: 100;
+	text-decoration: none;
+	text-shadow: 0;
+  width: 12px;
+  height: 12px;
+  border-bottom: 2px solid #fff;
+  border-right: 2px solid #fff;
+  /* z-index: 9; */
+  -webkit-transform: translate(-50%, 0%) rotate(-135deg);
+  -moz-transform: translate(-50%, 0%) rotate(-135deg);
+  transform: translate(-50%, 0%) rotate(-135deg);
+	-webkit-animation: fade_move_down 2s ease-in-out infinite;
+	-moz-animation:    fade_move_down 2s ease-in-out infinite;
+	animation:         fade_move_down 2s ease-in-out infinite;
+}
+
+
+/*animated scroll arrow animation*/
+@-webkit-keyframes fade_move_down {
+  0%   { -webkit-transform:translate(0,7px) rotate(-135deg); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { -webkit-transform:translate(0,-7px) rotate(-135deg); opacity: 0; }
+}
+@-moz-keyframes fade_move_down {
+  0%   { -moz-transform:translate(0,7px) rotate(-135deg); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { -moz-transform:translate(0,-7px) rotate(-135deg); opacity: 0; }
+}
+@keyframes fade_move_down {
+  0%   { transform:translate(0,7px) rotate(-135deg); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { transform:translate(0,-7px) rotate(-135deg); opacity: 0; }
+}
+
+
+}
+
+
+
+
+
+
+
+
