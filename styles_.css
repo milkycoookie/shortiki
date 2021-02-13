@@ -1,55 +1,92 @@
 
-   html, body {
-    position: relative;
-    height: 100%;
-    background: linear-gradient(0deg, #03061B 0%, rgba(2, 3, 16, 0.95) 100%);  }
+html, body {
+position: relative;
+height: 100%;
+background:  #03061B;  
+}
 
-  body {
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    color: beige;
-    margin: 0;
-    padding: 0;
-  }
+body {
+font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+color: beige;
+margin: 0;
+padding: 0;
+}
 
+#hero-block{
+text-align: center;
+}
 
-.hero-title{
-    font-size: 24px;
-  }
-
-.hero-text{
-font-size: 16px;
+#img-icon {
+position: relative;
+left: 0%;
+right: auto;
+width: 8%;
+height: auto;
+max-height: none;
+min-height: 80px;
+margin-top: 60px;
 }
 
 
-
-
-  .img-hero {
-    position: relative;
-    left: 55%;
-    top: 5%;
-    right: auto;
-    width: 35%;
-    height: auto;
-    max-height: none;
-    min-height: 400px;
-    margin-top: 5%;
+#title{
+font-size: 40px;
+font-weight: 600;
+margin-bottom: 7px;
 }
 
-.img-icon {
-  position: relative;
-  left: 5%;
-  right: auto;
-  width: 10%;
-  height: auto;
-  max-height: none;
-  min-height: 100px;
+#descr{
+font-size: 20px;
+margin-bottom: 50px;
+margin-top: 0px;
+}
+
+#img-hero {
+position: relative;
+left: 0%;
+top: 0%;
+right: auto;
+height: auto;
+max-height: none;
+max-width: 700px;
+
+
 }
 
 
-img {
-    max-width: 100%;
-    vertical-align: middle;
-    display: inline-block;
+#mailform{
+max-width: 750px;
+min-height: 220px;
+border-radius: 20pt;
+text-align: center;
+margin: 0 auto;
+background-color: #EB1997;
+
+position: relative;
+
+}
+
+#partner{
+font-size: 22px;
+text-align: center;
+margin: 0px;
+color: #fff;
+
+position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+#mail-link{
+color: gold;
+}
+
+
+#foot{
+font-size: 12px;
+text-align: center;
+margin: 40px;
 }
 
 
